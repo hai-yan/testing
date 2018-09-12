@@ -1,0 +1,151 @@
+Failed to get information of process Id: 0
+Failed to get information of process Id: 4
+Failed to get information of process Id: 284
+Failed to get information of process Id: 456
+Failed to get information of process Id: 488
+Failed to get information of process Id: 508
+Failed to get information of process Id: 552
+Failed to get information of process Id: 596
+Failed to get information of process Id: 616
+Failed to get information of process Id: 624
+Failed to get information of process Id: 716
+Failed to get information of process Id: 780
+Failed to get information of process Id: 812
+Failed to get information of process Id: 912
+Failed to get information of process Id: 920
+Failed to get information of process Id: 964
+Failed to get information of process Id: 1012
+Failed to get information of process Id: 256
+Failed to get information of process Id: 328
+Failed to get information of process Id: 464
+Failed to get information of process Id: 1148
+Failed to get information of process Id: 1176
+Failed to get information of process Id: 1288
+Failed to get information of process Id: 1324
+PROCESS 0x598       hipmgmt.exe
+PROCESS 0x5b4       frameworkservice.exe
+PROCESS 0x5e4       vstskmgr.exe
+Failed to get information of process Id: 1548
+PROCESS 0x614       mfeann.exe
+Failed to get information of process Id: 1604
+Failed to get information of process Id: 1648
+Failed to get information of process Id: 1672
+Failed to get information of process Id: 1728
+Failed to get information of process Id: 1844
+Failed to get information of process Id: 1876
+PROCESS 0x78c       taniumclient.exe
+Failed to get information of process Id: 1976
+Failed to get information of process Id: 1284
+Failed to get information of process Id: 1224
+Failed to get information of process Id: 1252
+Failed to get information of process Id: 2068
+PROCESS 0x910       nvservicesj.exe
+Failed to get information of process Id: 2536
+Failed to get information of process Id: 3212
+Failed to get information of process Id: 3916
+Failed to get information of process Id: 4112
+Failed to get information of process Id: 4424
+Failed to get information of process Id: 5064
+PROCESS 0x1060      googlecrashhandler.exe
+Failed to get information of process Id: 608
+Failed to get information of process Id: 1536
+PROCESS 0x1170      taniumendpointindex.exe
+Failed to get information of process Id: 340
+PROCESS 0x5d8       naprdmgr.exe
+Failed to get information of process Id: 4532
+Failed to get information of process Id: 5620
+Failed to get information of process Id: 4440
+Failed to get information of process Id: 5028
+Failed to get information of process Id: 4164
+Failed to get information of process Id: 4564
+Failed to get information of process Id: 6060
+Failed to get information of process Id: 5916
+Failed to get information of process Id: 4932
+Failed to get information of process Id: 4724
+PROCESS 0x121c      udaterui.exe
+PROCESS 0x324       mctray.exe
+PROCESS 0x19f8      taniumclient.exe
+Failed to get information of process Id: 7456
+PROCESS 0x1890      vugen.exe
+PROCESS 0xd44       taniumsend_hpe.exe
+Failed to get information of process Id: 7072
+PROCESS 0x1edc      nwsapautoworkstationupdateservice.exe
+PROCESS 0x13e4      nwsapsetupusernotificationtool.exe
+PROCESS 0xa68       saplogon.exe
+Failed to get information of process Id: 1756
+PROCESS 0x19c0      taniumclient.exe
+Failed to get information of process Id: 4780
+PROCESS 0x1574      sapguirecord.exe
+		12.53.1203.0                  C:\Program Files (x86)\HP\Virtual User Generator\bin\SapGuiRecord.exe
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\SysWOW64\ntdll.dll
+		6.1.7601.18015 (win7sp1_gdr.121129-1432)C:\Windows\syswow64\kernel32.dll
+		6.1.7601.18015 (win7sp1_gdr.121129-1432)C:\Windows\syswow64\KERNELBASE.dll
+		12.53.1203.0                  C:\Program Files (x86)\HP\Virtual User Generator\bin\api_trapper.dll
+		12.53.845.0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\mosifs32.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\syswow64\USERENV.dll
+		7.0.7601.17744 (win7sp1_gdr.111215-1535)C:\Windows\syswow64\msvcrt.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\syswow64\RPCRT4.dll
+		6.1.7601.23889 (win7sp1_ldr.170810-1615)C:\Windows\syswow64\SspiCli.dll
+		6.1.7601.23889 (win7sp1_ldr.170810-1615)C:\Windows\syswow64\CRYPTBASE.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\SysWOW64\sechost.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\syswow64\profapi.dll
+		12.53.845.0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\thrdutil.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\syswow64\USER32.dll
+		6.1.7601.23807 (win7sp1_ldr.170512-0600)C:\Windows\syswow64\GDI32.dll
+		6.1.7601.23807 (win7sp1_ldr.170512-0600)C:\Windows\syswow64\LPK.dll
+		1.0626.7601.23894 (win7sp1_ldr.170816-0600)C:\Windows\syswow64\USP10.dll
+		6.1.7601.23889 (win7sp1_ldr.170810-1615)C:\Windows\syswow64\ADVAPI32.dll
+		14.00.24123.0 built by: VCTOOLSRELC:\Windows\system32\VCRUNTIME140.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\ucrtbase.DLL
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-core-timezone-l1-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-core-file-l2-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-core-localization-l1-2-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-core-synch-l1-2-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-core-processthreads-l1-1-1.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-core-file-l1-2-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-string-l1-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-heap-l1-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-stdio-l1-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-convert-l1-1-0.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\syswow64\SHELL32.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\syswow64\SHLWAPI.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\IPHLPAPI.DLL
+		6.1.7601.23889 (win7sp1_ldr.170810-1615)C:\Windows\syswow64\NSI.dll
+		6.1.7601.23889 (win7sp1_ldr.170810-1615)C:\Windows\system32\WINNSI.DLL
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-filesystem-l1-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-locale-l1-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-multibyte-l1-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-environment-l1-1-0.dll
+		10.0.10586.788 (th2_release_sec.170113-1732)C:\Windows\system32\api-ms-win-crt-math-l1-1-0.dll
+		12.53.845.0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\PathResolver.dll
+		12.53.845.0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\runtime_code_injection_lib.dll
+		14.00.24123.0 built by: VCTOOLSRELC:\Windows\system32\MSVCP140.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\VERSION.dll
+		6.1.7601.23889 (win7sp1_ldr.170810-1615)C:\Windows\syswow64\ole32.dll
+		6.1.7601.23775                C:\Windows\syswow64\OLEAUT32.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\system32\IMM32.DLL
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\syswow64\MSCTF.dll
+		12.53.845.0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\bbhook.dll
+		2001.12.8530.16385 (win7_rtm.090713-1255)C:\Windows\syswow64\CLBCatQ.DLL
+		6.1.7601.23471 (win7sp1_ldr.160614-0600)C:\Windows\system32\CRYPTSP.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\rsaenh.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\system32\RpcRtRemote.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\SXS.DLL
+		12.53.1203.0                  C:\Program Files (x86)\HP\Virtual User Generator\bin\SapGuiActiveScreen.dll
+		12.53.392.0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\ActiveScreen.dll
+		                              C:\Program Files (x86)\HP\Virtual User Generator\bin\DibUtilsDll.dll
+		11.00.51106.1 built by: Q11RELC:\Windows\system32\MSVCR110.dll
+		1.1.4.0                       C:\Program Files (x86)\HP\Virtual User Generator\bin\zlib.dll
+		12.53.845.0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\XmlParserInterface.dll
+		3, 1, 2, 0                    C:\Program Files (x86)\HP\Virtual User Generator\bin\xerces-c_3_1.dll
+		55, 1, 0, 0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\icuuc55.dll
+		55, 1, 0, 0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\icudt55.dll
+		11.00.51106.1 built by: Q11RELC:\Windows\system32\MSVCP110.dll
+		1, 11, 0, 0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\Xalan-C_1_11.dll
+		55, 1, 0, 0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\icuin55.dll
+		                              C:\Program Files (x86)\HP\Virtual User Generator\bin\XalanMessages_1_11.dll
+		12.53.845.0                   C:\Program Files (x86)\HP\Virtual User Generator\bin\mic_regex.dll
+		12.53.1203.0                  C:\Program Files (x86)\HP\Virtual User Generator\bin\type_info_pool.dll

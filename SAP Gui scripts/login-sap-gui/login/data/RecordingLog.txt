@@ -1,0 +1,11 @@
+[API Trapper      (1040: d74)] Recording in 32-bit mode: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe
+[SapGui Recorder  (1574:1c40)] sapgui_open_connection_ex( ConnectionString="   /SAP_CODEPAGE=1100  /FULLMENU  calderone.hpeswlab.net 00 /3 /UPDOWNLOAD_CP=2", Description="calderone", ConnectionID="con[0]")     ApplicationServer="calderone",
+[SapGui Recorder  (1574:  f0)] sapgui_call_method( Type="GuiMainWindow", Name="wnd[0]", MethodName="maximize", Params={LAST} )     ID="/app/con[0]/ses[0]/wnd[0]"
+[SapGui Recorder  (1574:1c40)] sapgui_set_property( Type="GuiTextField", Name="RSYST-BNAME", PropertyName="text", Value="qa01" )     ID="/app/con[0]/ses[0]/wnd[0]/usr/txtRSYST-BNAME"
+[SapGui Recorder  (1574:1c40)] sapgui_set_property( Type="GuiPasswordField", Name="RSYST-BCODE", PropertyName="text", Value="********" )     ID="/app/con[0]/ses[0]/wnd[0]/usr/pwdRSYST-BCODE"
+[SapGui Recorder  (1574:1c40)] sapgui_call_method( Type="GuiPasswordField", Name="RSYST-BCODE", MethodName="setFocus", Params={LAST} )     ID="/app/con[0]/ses[0]/wnd[0]/usr/pwdRSYST-BCODE"
+[SapGui Recorder  (1574:1c40)] sapgui_set_property( Type="GuiPasswordField", Name="RSYST-BCODE", PropertyName="caretPosition", Value="8" )     ID="/app/con[0]/ses[0]/wnd[0]/usr/pwdRSYST-BCODE"
+[SapGui Recorder  (1574:1c40)] sapgui_call_method( Type="GuiButton", Name="btn[0]", MethodName="press", Params={LAST} )     ID="/app/con[0]/ses[0]/wnd[0]/tbar[0]/btn[0]"
+[SapGui Recorder  (1574:  f0)] SapGui end request: SessionID="/app/con[0]/ses[0]", ResponseTime=4272, InterpretationTime=564 
+[SapGui Recorder  (1574:  f0)] sapgui_logon( SessionID="/app/con[0]/ses[0]", UserName="QA01", Password="decrypt(*****)", Client="800", Language="EN" )
+[SapGui Recorder  (1574:1c40)] SapGui end request: SessionID="/app/con[0]/ses[0]", ResponseTime=4272, InterpretationTime=564 

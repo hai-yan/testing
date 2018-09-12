@@ -1,0 +1,6 @@
+[MAIN]
+FileName1=snapshot101.xml
+id=ses[0]/wnd[0]/usr/txtRSYST-BNAME
+ImageFileName1=snapshot101.png
+[Viewer]
+PROGID=ViewerGen.SSViewerGen

@@ -1,0 +1,6 @@
+[vuser_init]
+SnapshotIndex=vuser_init
+[Action]
+SnapshotIndex=Action
+[vuser_end]
+SnapshotIndex=vuser_end

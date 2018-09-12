@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\SAPGUI2
+-IC:\Program Files (x86)\HP\Virtual User Generator\include
+-ec:\users\administrator\documents\vugen\scripts\sapgui2\\logfile.log
+c:\users\administrator\documents\vugen\scripts\sapgui2\\combined_SAPGUI2.c
+c:\users\administrator\documents\vugen\scripts\sapgui2\\pre_cci.c

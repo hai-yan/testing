@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Desktop\Kally Scripts\WebHttpHtml_datapoint_301datapoint
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\administrator\desktop\kally scripts\webhttphtml_datapoint_301datapoint\\logfile.log
+c:\users\administrator\desktop\kally scripts\webhttphtml_datapoint_301datapoint\\combined_WebHttpHtml_datapoint_310datapoint.c
+c:\users\administrator\desktop\kally scripts\webhttphtml_datapoint_301datapoint\\pre_cci.c

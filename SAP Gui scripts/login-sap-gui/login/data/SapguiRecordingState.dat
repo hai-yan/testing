@@ -1,0 +1,8 @@
+[/app/con0/ses0]
+SessionLogonState=4
+[Sessions]
+NextSessionUniqueNum=2
+OpenSessionsIDs=/app/con[0]/ses[0]
+[/app/con0]
+ConnectionDescription=calderone
+ConnectionString=   /SAP_CODEPAGE=1100  /FULLMENU  calderone.hpeswlab.net 00 /3 /UPDOWNLOAD_CP=2

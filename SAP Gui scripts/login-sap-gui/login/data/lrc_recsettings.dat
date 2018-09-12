@@ -1,0 +1,47 @@
+/////////////////////////////////////////////////////////////////////////////
+// LoadRunner : Multiprotocol Record Settings                              //
+// Mercury Interactive Corp.                                               //
+/////////////////////////////////////////////////////////////////////////////
+
+{{ ACTIVE PROTOCOLS LIST:
+    ( 1) SapGui  (name=SapGui)
+          Type Library # 1 = SapRecordedEvents.tlb (path=C:\Program Files (x86)\HP\Virtual User Generator\bin\tlbs\SapRecordedEvents.tlb)
+          
+    ( 2) local_server  (name=local_server)
+          Map Function # 1 = CoCreateInstance  (in ole32.dll)  TO
+                           : CoCreateInstanceHook1  (in api_trapper.dll)    
+          Map Function # 2 = CoCreateInstanceEx  (in ole32.dll)  TO
+                           : CoCreateInstanceExHook1  (in api_trapper.dll)    
+          Map Function # 3 = CoGetClassObject  (in ole32.dll)  TO
+                           : CoGetClassObjectHook1  (in api_trapper.dll)    
+          Map Function # 4 = ModifiedCoCreateInstanceEx  (in ole32.dll)  TO
+                           : ModifiedCoCreateInstanceExHook  (in api_trapper.dll)    
+          Map Function # 5 = ModifiedDispatchInvoke  (in ole32.dll)  TO
+                           : ModifiedDispatchInvokeHook  (in api_trapper.dll)    
+          Map Function # 6 = ModifiedDispatchGetIdsOfNames  (in ole32.dll)  TO
+                           : ModifiedDispatchGetIdsOfNamesHook  (in api_trapper.dll)    
+          Map Function # 7 = ModifiedCoCreateInstanceEx  (in api_trapper1.dll)  TO
+                           : ModifiedCoCreateInstanceExHook  (in api_trapper1.dll)    
+          Map Function # 8 = ModifiedDispatchInvoke  (in api_trapper1.dll)  TO
+                           : ModifiedDispatchInvokeHook  (in api_trapper1.dll)    
+          Map Function # 9 = ModifiedDispatchGetIdsOfNames  (in api_trapper1.dll)  TO
+                           : ModifiedDispatchGetIdsOfNamesHook  (in api_trapper1.dll)    
+}}
+{{ FILTERING ORDER:
+    ( 1) InOutMatcher  (name=InOutMatcher)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : InOutMatcher_Init
+          Default    : InOutMatcher_DefaultProcess
+          Cleanup    : InOutMatcher_CleanUp
+                       
+    ( 2) Repository  (name=Repository)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Repository_Init
+          Default    : Repository_DefaultProcess
+          Cleanup    : Repository_CleanUp
+                       
+}}

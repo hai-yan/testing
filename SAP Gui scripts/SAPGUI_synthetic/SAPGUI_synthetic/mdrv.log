@@ -1,0 +1,22 @@
+Virtual User Script started at: 4/12/2018 7:31:56 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(6): Notify: Transaction "trans_pass" started.
+Action.c(8): Notify: Data Point "mic_recv" value = 5000.0000.
+Action.c(9): Notify: Data Point "HTTP_200" value = 5.0000.
+Action.c(10): Error: this is error message
+Action.c(13): Notify: Transaction "trans_pass" ended with a "Pass" status (Duration: 0.0765).
+Action.c(15): Notify: Transaction "trans_fail" started.
+Action.c(17): Notify: Data Point "mic_recv" value = 5000.0000.
+Action.c(18): Notify: Data Point "HTTP_200" value = 5.0000.
+Action.c(22): Notify: Transaction "trans_fail" ended with a "Fail" status (Duration: 0.0616).
+Action.c(22): Notify: Transaction "trans_fail" has 0 error message(s).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

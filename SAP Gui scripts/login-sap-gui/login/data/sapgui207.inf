@@ -1,0 +1,16 @@
+[ObjectProperties]
+type_as_string=GuiPasswordField
+component_name=RSYST-BCODE
+Text=
+Tooltip=
+Top=118
+Left=143
+Height=20
+Width=62
+MaxLength=8
+Numerical=False
+LabelText=Password
+[ParentWindowData]
+ParentWindowTitle=SAP R/3
+Snapshot=snapshot206
+NoHighlightSnapshot=snapshot202

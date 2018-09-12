@@ -1,0 +1,18 @@
+Virtual User Script started at : 11/2/2017 8:43:30 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Opened new connection to server "calderone"
+Action.c(8): Selected active connection "con[0]"
+Action.c(10): Selected active session "ses[0]"
+Action.c(12): Selected active window "wnd[0]"
+Action.c(14): Resized window to 28x219
+Action.c(24): Logged on as "qa01"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
