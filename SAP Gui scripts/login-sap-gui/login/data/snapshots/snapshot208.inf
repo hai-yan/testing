@@ -1,6 +1,0 @@
-[MAIN]
-FileName1=snapshot201.xml
-id=ses[0]/wnd[0]/tbar[0]/btn[0]
-ImageFileName1=snapshot201.png
-[Viewer]
-PROGID=ViewerGen.SSViewerGen

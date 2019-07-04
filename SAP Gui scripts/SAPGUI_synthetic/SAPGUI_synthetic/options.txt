@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Administrator\Desktop\SAPGUI_synthetic
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\administrator\desktop\sapgui_synthetic\\logfile.log
-c:\users\administrator\desktop\sapgui_synthetic\\combined_SAPGUI_synthetic.c
-c:\users\administrator\desktop\sapgui_synthetic\\pre_cci.c
