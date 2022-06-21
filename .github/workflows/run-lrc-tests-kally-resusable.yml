@@ -3,16 +3,15 @@ on:
 
 jobs:
   run_test:
-    runs-on: ubuntu-latest
     uses: MicroFocus/lrc-gh-action/.github/workflows/lrc.yml@v1
-      with:
-        lrc_server: 'https://stg-srl.saas.microfocus.com'
-        lrc_tenant: '809732732'
-        lrc_project: '66'
-        lrc_test_id: '1873'
+    with:
+      lrc_server: 'https://stg-srl.saas.microfocus.com'
+      lrc_tenant: '809732732'
+      lrc_project: '66'
+      lrc_test_id: '1873'
     secrets:
-        LRC_CLIENT_ID: ${{ secrets.LRC_CLIENT_ID }}
-        LRC_CLIENT_SECRET: ${{ secrets.LRC_CLIENT_SECRET }}
+      LRC_CLIENT_ID: ${{ secrets.LRC_CLIENT_ID }}
+      LRC_CLIENT_SECRET: ${{ secrets.LRC_CLIENT_SECRET }}
   print_run_id:
     if: ${{ always }}
     runs-on: ubuntu-latest
