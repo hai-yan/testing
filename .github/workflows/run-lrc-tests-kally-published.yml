@@ -25,3 +25,14 @@ jobs:
           lrc_tenant: '809732732'
           lrc_project: '66'
           lrc_test_id: '1873'  
+          lrc_output_dir: './lrc_report'
+          lrc_report_types: 'pdf,csv'
+      - name: Get the output runId
+        if: always()
+        run: echo "LRC Run ID is ${{ steps.lrc_run_test.outputs.lrc_run_id }}"
+      - name: upload lrc report
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: lrc-report-${{ steps.lrc_run_test.outputs.lrc_run_id }}
+          path: './lrc_report'
