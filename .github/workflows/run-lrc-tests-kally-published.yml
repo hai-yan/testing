@@ -11,7 +11,7 @@ jobs:
           ref: ${{ github.event.release.tag_name }}
   load_test:
     needs: build
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     name: Start a load test
     steps:
       - name: Run test in LoadRunner Cloud
