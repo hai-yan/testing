@@ -5,7 +5,7 @@ jobs:
   run_test:
     runs-on: ubuntu-latest
     uses: MicroFocus/lrc-gh-action/.github/workflows/lrc.yml@v1
-      with:
+    with:
         lrc_server: 'https://stg-srl.saas.microfocus.com'
         lrc_tenant: '809732732'
         lrc_project: '66'
