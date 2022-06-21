@@ -3,7 +3,7 @@ on:
 
 jobs:
   run_test:
-    uses: MicroFocus/lrc-gh-action/.github/workflows/lrc.yml@v1
+    uses: MicroFocus/lrc-gh-action/.github/workflows/lrc.yml@ca5930ffd24b8185a44db7b9b12369e8c6bb6fe8
     with:
       lrc_server: 'https://stg-srl.saas.microfocus.com'
       lrc_tenant: '809732732'
@@ -13,8 +13,9 @@ jobs:
       LRC_CLIENT_ID: ${{ secrets.LRC_CLIENT_ID }}
       LRC_CLIENT_SECRET: ${{ secrets.LRC_CLIENT_SECRET }}
   print_run_id:
-    if: ${{ always }}
     runs-on: ubuntu-latest
     needs: run_test
     steps:
       - run: echo "LRC Run ID is ${{ needs.run_test.outputs.lrc_run_id }}"
+
+      
