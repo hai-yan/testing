@@ -3,7 +3,7 @@ on:
 
 jobs:
   run_test:
-    uses: MicroFocus/lrc-gh-action/.github/workflows/lrc.yml@ca5930ffd24b8185a44db7b9b12369e8c6bb6fe8
+    uses: MicroFocus/lrc-gh-action/.github/workflows/lrc.yml@v1
     with:
       lrc_server: 'https://stg-srl.saas.microfocus.com'
       lrc_tenant: '809732732'
