@@ -1,7 +1,7 @@
 on:
   schedule:
     # run at 05:00 on every Friday
-    - cron:  '32 7,8 * * *'
+    - cron:  '5 * * * *'
 jobs:
   load_test:
     runs-on: self-hosted
