@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron:  '33 4,5 * * *'
+    - cron:  '42 4 * * *'
 jobs:
   load_test:
     runs-on: ubuntu-latest
