@@ -24,4 +24,4 @@ jobs:
           lrc_server: 'https://srl-qa1.saas.microfocus.com'
           lrc_tenant: '336275311'
           lrc_project: '2'
-          lrc_test_id: '2443'
+          lrc_test_id: '2808'
