@@ -37,8 +37,8 @@ jobs:
         uses: MicroFocus/lrc-gh-action@v1.6
         id: lrc_run_test
         env:
-          LRC_CLIENT_ID: ${{secrets.LRC_CLIENT_ID}}
-          LRC_CLIENT_SECRET: ${{secrets.LRC_CLIENT_SECRET}}
+          LRC_CLIENT_ID: ${{secrets.LRC_CLIENT_ID_QA1}}
+          LRC_CLIENT_SECRET: ${{secrets.LRC_CLIENT_SECRET_QA1}}
         with:
           lrc_server: ${{ github.event.inputs.lrc_server }}
           lrc_tenant: ${{ github.event.inputs.lrc_tenant }}
