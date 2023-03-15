@@ -34,7 +34,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Run test in LoadRunner Cloud
-        uses: MicroFocus/lrc-gh-action@v1
+        uses: MicroFocus/lrc-gh-action@v1。6
         id: lrc_run_test
         env:
           LRC_CLIENT_ID: ${{secrets.LRC_CLIENT_ID}}
