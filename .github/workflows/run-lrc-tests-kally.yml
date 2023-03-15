@@ -8,10 +8,11 @@ on:
       lrc_tenant:
         description: 'Tenant ID'
         required: true
+        default: '336275311'
       lrc_project:
         description: 'Project ID'
         required: true
-        default: '1'
+        default: '2'
       lrc_test_id:
         description: 'Test ID'
         required: true
@@ -22,7 +23,7 @@ on:
       lrc_report_types:
         description: 'Target report types. For example: pdf, docx, csv'
         required: false
-        default: ''
+        default: 'pdf, docx, csv'
 
 jobs:
   hello_world_job:
@@ -32,7 +33,7 @@ jobs:
       # To use this repository's private action,
       # you must check out the repository
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Run test in LoadRunner Cloud
         uses: MicroFocus/lrc-gh-action@v1
         id: lrc_run_test
