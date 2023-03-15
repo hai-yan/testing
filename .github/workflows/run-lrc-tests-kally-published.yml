@@ -23,7 +23,7 @@ jobs:
         with:
           lrc_server: 'https://srl-qa1.saas.microfocus.com'
           lrc_tenant: '336275311'
-          lrc_project: '22'
+          lrc_project: '2'
           lrc_test_id: '2808'  
           lrc_output_dir: './lrc_report'
           lrc_report_types: 'pdf, csv'
