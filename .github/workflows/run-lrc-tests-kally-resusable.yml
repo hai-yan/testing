@@ -9,7 +9,7 @@ jobs:
       lrc_server: 'https://srl-qa1.saas.microfocus.com'
       lrc_tenant: '336275311'
       lrc_project: '2'
-      lrc_test_id: '2808'
+      lrc_test_id: '2811'
     secrets:
       LRC_CLIENT_ID: ${{ secrets.LRC_CLIENT_ID_QA1 }}
       LRC_CLIENT_SECRET: ${{ secrets.LRC_CLIENT_SECRET_QA1 }}
